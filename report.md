@@ -31,7 +31,7 @@
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default vals|default vals|default vals|0.93818|
+|initial|default vals|default vals|default vals|1.39422|
 |add_features|default vals|default vals|default vals|0.47906|
 |hpo|NN epochs:[20], batch:[32]|GBM num_boost_round:[50]|default vals|0.93818|
 
