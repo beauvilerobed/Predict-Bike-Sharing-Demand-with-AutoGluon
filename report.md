@@ -19,11 +19,11 @@
 
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-#### The score increased from 1.39422 to 1.46785
+#### After adding new features the score decreased from 1.39765 to 0.47906 since some addtional feature may add improvement to the model.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-#### The score decreased from 1.46785 to 1.22871
+#### After trying different hyper parameters the score decreased from 1.39765 to 0.93818
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 #### I would spend more time on Hyper parameter tuning
@@ -31,9 +31,9 @@
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|-|-|-|-|
-|add_features|-|-|-|-|
-|hpo|20|32|50|0.93818|
+|initial|default vals|default vals|default vals|0.93818|
+|add_features|default vals|default vals|default vals|0.47906|
+|hpo|NN epochs:[20], batch:[32]|GBM num_boost_round:[50]|default vals|0.93818|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
