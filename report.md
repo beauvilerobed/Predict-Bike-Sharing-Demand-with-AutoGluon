@@ -31,9 +31,9 @@
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|20|32|50|1.23194|
-|add_features|20|32|50|1.21904|
-|hpo|20|32|50|1.22871|
+|initial|-|-|-|-|
+|add_features|-|-|-|-|
+|hpo|20|32|50|0.93818|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
@@ -49,4 +49,4 @@
 ## Summary
 #### Initially we had to analyze the `predictions` series then count how many negative values do we have and set them to zero
 #### The final model, which included hyperparameter optimization. The histogram of all features to show the distribution of each one relative to the data.
-#### The score increased from 1.39422 to 1.46785. After trying different hyper parameters the score decreased from 1.46785 to 1.22871. I would spend more time on Hyper parameter tuning
+#### After adding new features the score decreased from 1.39765 to 0.47906. After trying different hyper parameters the score decreased from 1.39765 to 0.93818. I would spend more time on Hyper parameter tuning
